@@ -263,11 +263,11 @@
             }
           }
           if (prevPage) {
-            prevPage.style.display = 'block';
+            prevPage.style.display = 'flex';
             this.translate(prevPage, -pageWidth);
           }
           if (nextPage) {
-            nextPage.style.display = 'block';
+            nextPage.style.display = 'flex';
             this.translate(nextPage, pageWidth);
           }
         } else {
